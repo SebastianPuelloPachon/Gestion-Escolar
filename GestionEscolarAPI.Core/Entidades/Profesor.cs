@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -8,6 +9,7 @@ namespace GestionEscolarAPI.Core.Entidades
 {
     public class Profesor
     {
+        [Key]
         public int ID { get; set; }
         public string NombreCompleto { get; set; }
         public string Usuario { get; set; }
