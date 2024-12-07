@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35201.131
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GestionEscolarAPI.Core", "GestionEscolarAPI.Core\GestionEscolarAPI.Core.csproj", "{973AEA58-F025-45F3-9314-E83A380BBDF9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GestionEscolarAPI.Core", "GestionEscolarAPI.Core\GestionEscolarAPI.Core.csproj", "{973AEA58-F025-45F3-9314-E83A380BBDF9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GestionEscolarAPI.Infrastructure", "GestionEscolarAPI.Infrastructure\GestionEscolarAPI.Infrastructure.csproj", "{F8DF141C-3FD3-4661-88F5-9321A6E39444}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GestionEscolarAPI.Infrastructure", "GestionEscolarAPI.Infrastructure\GestionEscolarAPI.Infrastructure.csproj", "{F8DF141C-3FD3-4661-88F5-9321A6E39444}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GestionEscolar.WebAPI", "GestionEscolar.WebAPI\GestionEscolar.WebAPI.csproj", "{2AF21DDB-3004-4D98-93A1-1CDF6F19856B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GestionEscolar.WebAPI", "GestionEscolar.WebAPI\GestionEscolar.WebAPI.csproj", "{2AF21DDB-3004-4D98-93A1-1CDF6F19856B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GestionEscolar.WebUI", "GestionEscolar.WebUI\GestionEscolar.WebUI.csproj", "{C74DEE9D-9036-49C3-81E3-9B4338E9096A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{2AF21DDB-3004-4D98-93A1-1CDF6F19856B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2AF21DDB-3004-4D98-93A1-1CDF6F19856B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2AF21DDB-3004-4D98-93A1-1CDF6F19856B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C74DEE9D-9036-49C3-81E3-9B4338E9096A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C74DEE9D-9036-49C3-81E3-9B4338E9096A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C74DEE9D-9036-49C3-81E3-9B4338E9096A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C74DEE9D-9036-49C3-81E3-9B4338E9096A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
